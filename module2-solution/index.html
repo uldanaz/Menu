@@ -1,79 +1,26 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="menu-style.css">
 <title>Menu</title>
-<style>
-	*{
-		box-sizing: border-box;
-		font-family: Comic Sans MS;
-	}
-	#bg {
-		background-color: grey;
-	}
-	div {
-		float: right;
-		border: 1px solid black;
-		width: 100px;
-		text-align: center;
-	}
-	h1 {
-		margin-bottom: 15px;
-		text-align: center;
-	}
-	p {
-		
-		width: 100%;
-		margin-right: auto;
-		margin-left: auto;
-		color: black;
-		padding: 15px;
-	}
-	 @media (min-width: 992px){
-	 	.col-lg-1,.col-lg-2,.col-lg-3{
-	 		float: left;
-	 		border: 1px solid black;
-	 	}
-	 	.col-lg-1{
-	 		width: 33.33%
-	 	}
-	 	.col-lg-2{
-	 		width: 33.33%
-	 	}
-	 	.col-lg-3{
-	 	width: 33.33%
-	 	}
-	 }
-	  @media (min-width: 768px) and (max-width: 991px){
-	        .col-md-1,.col-md-2,.col-md-3 {
-	 		float: left;
-	 		border: 1px solid black;
-	 	}
-	 	.col-md-1{
-	 		width: 50%
-	 	}
-	 	.col-md-2{
-	 		width: 50%
-	 	}
-	 	.col-md-3{
-	 	width: 50%
-	 	}
-	 }
-</style>
+
 </head>
 <body>
 <h1>Our Menu</h1>
-<div id="bg" class="col-lg-1" class="col-md-1">
-<div style="background-color: #E9967A; font-weight: 400">Chicken</div>
+<div class="blocks" class="col-lg-1" class="col-md-1">
+<div style="background-color: #E9967A; font-weight: 400" class="title">Chicken</div>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like.</p> 
 </div>
-<div id="bg" class="col-lg-2" class="col-md-2">
-	<div style="background-color: #A52A2A; color: white; font-weight: 400;">Beef</div>
+<div class="blocks" class="col-lg-2" class="col-md-2">
+	<div style="background-color: #A52A2A; color: white; font-weight: 400;" class="title">Beef</div>
 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p> 
 </div>
-<div id="bg" class="col-lg-3" class="col-md-3">
-	<div style="background-color: #F0E68C; font-weight: 400">Sushi</div>
-<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p> 
+<div class="blocks"  class="col-lg-3" class="col-md-3">
+	<div style="background-color: #F0E68C; font-weight: 400"  class="title">Sushi</div>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
 </div>
 </body>
 </html>
