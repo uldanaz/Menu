@@ -4,6 +4,9 @@ body {
   background-color: #fff;
   font-family: 'Changa', sans-serif;
 }
+h2 {
+  font-size: 2.5em;
+}
 /** HEADER **/
 #header-nav {
   background-color: #A9A9A9;
@@ -58,6 +61,7 @@ body {
   background-color: #A9A9A9;
 }
 .menu-tile span {
+  margin-left: 160px;
   text-align: center;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -95,12 +99,11 @@ body {
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 2em; 
   }
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
-
   /* End Header */
 
 }
